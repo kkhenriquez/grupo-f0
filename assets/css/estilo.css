@@ -1,0 +1,204 @@
+/* CSS Document */
+
+@import url(http://fonts.googleapis.com/css?family=Oxygen&subset=latin,latin-ext);
+
+body{
+	background-color:#202120;
+}
+
+
+.columna .col-md-4{
+	text-align:center;
+}
+
+.image{
+	position:relative;
+}
+
+.image .rotulo{
+	position:absolute;
+	top:10px;
+}
+
+.market{
+	width:300px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+  
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+.xs{
+	height:5px;
+}
+
+.sm{
+	height:10px;
+}
+
+.md{
+	height:25px;
+}
+
+.lg{
+	height:70px;
+}
+
+.prime{
+	margin-top:70px;
+	clear:both; 
+}
+
+.divisor{
+	margin: 68px 0;
+	visibility:hidden;
+}
+
+.form input, textarea{
+	border:none;
+	font-family:"Oxygen", "Lucida Sans Unicode", sans-serif;
+	background:none;
+	font-size:14px;
+	color:#fffdf6;
+	}
+
+#email{
+	width:300px !important;}
+	
+	
+#name{width:300px !important;}
+	
+	
+.form textarea{
+	resize:none !important;
+	width:300px;
+	height:120px;
+	}
+	
+
+
+input:focus, textarea:focus{outline:none;}
+
+.centrar{
+	display:block;
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center;
+}
+
+.titulo{
+	color:#dc3522;
+	
+}
+
+p{
+	font-family:'Oxygen',sans-serif !important;
+}
+
+.filaImg{
+	display:block;
+	padding-top:65px;
+}
+
+.elemento{
+	display:inline !important;
+	width:250px;
+	float:none !important;
+}
+
+.ancho{
+	width:100px;
+	display:inline !important;
+}
+
+#convocatoria{
+	background-color:#1185d1;
+	color:#d9e3e3;
+	padding:70px 0;
+	
+}
+
+
+#convocatoria h1{
+	font-size:50pt;
+	margin-top:auto;
+	margin-bottom:auto;
+	vertical-align:middle;
+}
+
+#convocatoria p{
+	font-size:18pt;
+}
+
+#libros{
+	background-color:#fffdf6;
+	padding:95px 0;
+}
+
+#libros h1{
+	color:#202120;
+	font-size:60pt;
+	padding-top:95px;
+}
+
+#libros p{
+	color:#202120;
+	font-size:18pt;
+}
+
+#fotografia{
+	background-color:#d1570d;
+	color:#fff6da;
+	padding:70px 0;
+}
+
+#fotografia h1{
+	font-size:60pt;
+}
+
+#fotografia p{
+	font-size:18pt;
+}
+
+.vertical{
+	vertical-align:middle;
+	padding-top:170px;
+}
+
+.textovertical{
+	padding-top:40px;
+}
+
+.derecha{
+	text-align:right;
+}
+
+.letra-grande{
+	font-size:15px;
+}
+
+#participantes{
+	padding-top:30px;
+}
+
+.bajar{
+	padding-top:15px;
+}
+
+
+
+
