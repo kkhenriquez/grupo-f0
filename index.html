@@ -104,56 +104,15 @@
     <hr class="divisor" id="contacto">
     
     <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4" style="position: relative; top: 70px;">
           <h2 class="titulo">Contáctanos</h2>
-            <h4>en info@grupof0.com</h4>
+            <h4>en <a href="mailto:info@grupof0.com">info@grupof0.com</h4></a>
             <h4><small>Valencia, Carabobo</small></h4>
             <div class="sm"></div>
-            <h4>Tu opinión es importante</h4>
+            <h4>Tu opinión es importante para nosotros.</h4>
             
             <div class="sm"></div>
-            <form class="form" action="index.php" method="post">
-    
-    <p class="name">
-      <input type="text" name="name" id="name" placeholder="Nombre" required/>
-      
-    </p>
-    
-    <p class="email">
-      <input type="email" name="email" id="email" placeholder="E-mail" required/>
-      
-    </p>
-    
-    
-  
-    <p class="text">
-      <textarea name="text" placeholder="Deja tu comentario" ></textarea>
-    </p>
-        
-        <button type="submit" class="btn btn-primary">Enviar</button>
-    <span>
-      <?php
-if (isset($_REQUEST['email']))
-//if "email" is filled out, send email
-  {
-  //send email
-  $name = $_POST['name'];
-$email = $_POST['email'];
-$message = $_POST['text'];
-$formcontent=" From: $name \n Message: $message";
-$recipient = "info@grupof0.com";
-$subject = "info Grupo f/0";
-$mailheader = "From: $email \r\n";
-mail($recipient, $subject, $formcontent, $mailheader) or die("Error!");
-echo "¡Gracias!";
-  }
-else
-  {
-  
-  }
-?></span>
-    
-  </form>
+            
             
         </div>
        <div class="text-center">
